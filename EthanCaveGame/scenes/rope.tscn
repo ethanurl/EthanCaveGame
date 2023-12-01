@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://684xl0sn38h1"]
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_73bmk"]
+
+[node name="Rope" type="Sprite2D"]
+
+[node name="RigidBody2D" type="RigidBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RigidBody2D"]
+shape = SubResource("SegmentShape2D_73bmk")
